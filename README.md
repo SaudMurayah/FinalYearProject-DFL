@@ -1,5 +1,16 @@
 # Decentralized Federated Learning For Enhancing Scalability & Resilience
 
+## Abstract
+In traditional Federated Learning (FL), an aggregator server collects and coordinates updates
+from client machines, resulting in a potential bottleneck in scalability and a single point of
+failure. This project aims to evaluate the feasibility of Decentralized Federated Learning (DFL)
+to utilize peer-to-peer (p2p) communication among clients to provide both high-performance and
+resilient system architecture. Using a modified version of the flower framework to implement
+gRPC protocol, this project allows client updates to flow directly to other clients without an
+intermediary aggregator server. Results of experiments conducted with the MNIST dataset show
+that our DFL architecture is capable of achieving model convergence, yielding an increase in
+accuracy from 14% to 33% during three rounds of training while decreasing reliance on a
+central aggregator server.
 
 
 
