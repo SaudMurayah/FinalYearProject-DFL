@@ -1,7 +1,7 @@
 # Decentralized Federated Learning For Enhancing Scalability & Resilience
 
 ## Abstract
-In traditional Federated Learning (FL), an aggregator server collects and coordinates updates
+In traditional *Federated Learning (FL)*, an aggregator server collects and coordinates updates
 from client machines, resulting in a potential bottleneck in scalability and a single point of
 failure. This project aims to evaluate the feasibility of Decentralized Federated Learning (DFL)
 to utilize peer-to-peer (p2p) communication among clients to provide both high-performance and
@@ -13,8 +13,6 @@ accuracy from 14% to 33% during three rounds of training while decreasing relian
 central aggregator server.
 
 ## TABLE OF CONTENT
-
-   Abstract
 1. Introduction
 2. Literature Review
 3. Problem Statement & Objectives
