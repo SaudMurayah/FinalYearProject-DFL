@@ -1,5 +1,3 @@
-# Decentralized Federated Learning For Enhancing Scalability & Resilience
-
 ## Abstract
 *In traditional Federated Learning (FL), an aggregator server collects and coordinates updates
 from client machines, resulting in a potential bottleneck in scalability and a single point of
