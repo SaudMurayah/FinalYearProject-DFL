@@ -22,6 +22,19 @@ central aggregator server.*
 9. Conclusion & Future Work
 References
 
+## LIST OF FIGURES
+Figure 1. Steps for Peer-to-peer FL Training
+Figure 2. Centralized Federated Learning Architecture
+Figure 3. High-Level Decentralized Federated Learning Design
+Figure 4. DFL Diagram
+Figure 5. FL Components in the System Diagram
+Figure 6. Data Flow Diagram for Decentralized Learning
+Figure 7. Flower Federated Learning Architecture
+Figure 8. Centralized Model Results
+Figure 9. Decentralized P2P Results
+Figure 10. Decentralized Workflow
+Figure 11. Training Logs of Decentralized FL System
+
 
 
 ```bibtex
