@@ -12,6 +12,19 @@ that our DFL architecture is capable of achieving model convergence, yielding an
 accuracy from 14% to 33% during three rounds of training while decreasing reliance on a
 central aggregator server.
 
+## TABLE OF CONTENT
+Abstract
+1. Introduction
+2. Literature Review
+3. Problem Statement & Objectives
+4. Functional and Non-Functional Requirements
+5. System Architecture and Design
+6. Methodology and Implementation Details
+7. Experiments and Result Analysis
+8. Challenges and Discussions
+9. Conclusion & Future Work
+References
+
 
 
 ```bibtex
