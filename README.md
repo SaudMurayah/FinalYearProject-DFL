@@ -23,17 +23,17 @@ central aggregator server.*
 -    [References](README.md#references)
 
 ## LIST OF FIGURES
-- Figure 1. Steps for Peer-to-peer FL Training
-- Figure 2. Centralized Federated Learning Architecture
-- Figure 3. High-Level Decentralized Federated Learning Design
-- Figure 4. DFL Diagram
-- Figure 5. FL Components in the System Diagram
-- Figure 6. Data Flow Diagram for Decentralized Learning
-- Figure 7. Flower Federated Learning Architecture
-- Figure 8. Centralized Model Results
-- Figure 9. Decentralized P2P Results
-- Figure 10. Decentralized Workflow
-- Figure 11. Training Logs of Decentralized FL System
+- [Figure 1. Steps for Peer-to-peer FL Training](figure1)
+- [Figure 2. Centralized Federated Learning Architecture]
+- [Figure 3. High-Level Decentralized Federated Learning Design]
+  [Figure 4. DFL Diagram]
+- [Figure 5. FL Components in the System Diagram]
+- [Figure 6. Data Flow Diagram for Decentralized Learning]
+- [Figure 7. Flower Federated Learning Architecture]
+- [Figure 8. Centralized Model Results]
+- [Figure 9. Decentralized P2P Results]
+- [Figure 10. Decentralized Workflow]
+- [Figure 11. Training Logs of Decentralized FL System]
 
 ## i.Introduction
 Federated Learning is a method of collaborative machine learning where multiple clients can collectively
@@ -75,6 +75,7 @@ becoming increasingly important in creating privacy-preserving, scalable, and in
 on distributed data continues to evolve rapidly and is becoming a key technology for building
 privacy-preserving, scalable, and intelligent systems that rely on distributed data.
 
+<a id="figure1"></a>
 <p align="center">
 <img width="2048" height="1096" alt="1" src="https://github.com/user-attachments/assets/537d6aa1-373f-43ee-b888-3bd322d874fe" />  
   <em> <strong>Figure 1.</strong> The illustration is a mesh of clients each having their own data and each client sends model updates to other peer
@@ -155,7 +156,7 @@ federated learning—that will allow for computation to be distributed away from
 provide for reduction of the server load, and remove the single point of failure inherent in the centralized
 architecture.
 
-
+<a id="figure2"></a>
 <p align="center">
 <img width="742" height="430" alt="2" src="https://github.com/user-attachments/assets/42c2e397-7f2d-4809-96c6-6a421d989e86" />
   <em><br><strong>Figure2.</strong> Illustrates how in the classic federated learning topology there is one main or central server and many clients. Each
@@ -193,6 +194,7 @@ As opposed to the star topology found in most centralized FL architectures, we p
 mesh-like P2P topology. Each client functions as both a sender and a receiver of model parameters and
 communicates directly with other peers.
 
+<a id="figure3"></a>
 <p align="center">
 <img width="446" height="479" alt="3" src="https://github.com/user-attachments/assets/28a9154a-ea52-47e8-8026-60a2a085e82b" />
   <em>
@@ -209,6 +211,7 @@ them to exchange gradient updates and model weights directly. With the collabora
 the network, the network can work together to build shared intelligence and achieve agreement, all
 without the transmission of raw data.
 
+<a id="figure4"></a>
 <p align="center">
 <img width="359" height="407" alt="4" src="https://github.com/user-attachments/assets/df240dc0-a845-4324-a0bd-d34a3ab88bbd" />
   <em><br>
@@ -217,6 +220,7 @@ without the transmission of raw data.
 </p>
 <br>
 
+<a id="figure5"></a>
 <p align="center">
 <img width="582" height="408" alt="5" src="https://github.com/user-attachments/assets/219d6377-9bf5-48c3-a2fa-b1bc010d42d1" />
   <em><br>
@@ -232,6 +236,7 @@ The training process is conducted in a cycle:
 - Exchange of Models: Updates are exchanged securely via gRPC.
 - Aggregation: Local aggregation (FedAvg) and gossip-based propagation occur at each node.
 
+<a id="figure6"></a>
 <p align="center">
 <img width="603" height="488" alt="6" src="https://github.com/user-attachments/assets/4243cc55-66d8-4987-b317-59128d60869c" />
   <em><br>
@@ -265,6 +270,7 @@ allowing Direct Client-To-Client Interaction, the System will reduce Server Load
 Support Scalable Decentralized Learning Workflow, while Maintaining Compatibility with Flower’s Main
 Orchestration Loop.
 
+<a id="figure7"></a>
 <p align="center">
 <img width="741" height="474" alt="7" src="https://github.com/user-attachments/assets/3d4fc36a-123a-4b92-85c6-4a839fc742a7" />
   <em><br>
@@ -318,6 +324,7 @@ Accuracy: Accuracy of the model increased gradually from 14% in Round 1 to 33% b
 Loss: Decrease in Training Loss was demonstrated by a decrease in Training Loss from 359.96 to
 296.17, which indicates that the model learned effectively.
 
+<a id="figure8"></a>
 <p align="center">
 <img width="747" height="294" alt="8" src="https://github.com/user-attachments/assets/407e517f-0354-44aa-b9bb-9ad5d185c6a8" />
   <em><br>
@@ -355,6 +362,7 @@ of training:
 - Round 2: 0.1154
 - Round 3: 0.0836
 
+<a id="figure9"></a>
 <p align="center">
 <img width="895" height="360" alt="9" src="https://github.com/user-attachments/assets/d42389df-33f2-41bc-99f5-21a8d67f37cc" />
 <em><br>
@@ -369,6 +377,7 @@ privately. The computers connect, confirm the existence of connections, perform 
 knowledge (parameters), combine this knowledge, and continue to do so until the model has sufficient
 accuracy.
 
+<a id="figure10"></a>
 <p align="center">
 <img width="1162" height="638" alt="10" src="https://github.com/user-attachments/assets/99baaec9-c3c3-4ad3-8f55-68bda36e7ec6" />
   <em><br>
@@ -399,6 +408,7 @@ successful, as evident by the significant reduction in the loss metrics of the p
 decreased from 0.1949 in Round 1 to 0.0806 in Round 3). Ultimately, once the third round was complete,
 all nodes shut down their servers, and the script terminated with the message "All peers finished"
 
+<a id="figure11"></a>
 <p align="center">
 <img width="1000" height="638" alt="10" src="https://github.com/user-attachments/assets/e287262e-7073-4c9e-9e94-0cdd2e83264b" />
   <em><br>
