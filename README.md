@@ -11,7 +11,7 @@ accuracy from 14% to 33% during three rounds of training while decreasing relian
 central aggregator server.*
 
 ## TABLE OF CONTENT
-- 1. Introduction
+- 1. [Introduction](#Introduction)
 - 2. Literature Review
 - 3. Problem Statement & Objectives
 - 4. Functional and Non-Functional Requirements
@@ -122,7 +122,7 @@ fundamental technological obstacles that continue to foster innovations within t
 space including scalability, communication efficiency and security.
 
 ## iii. Problem Statement
-*A significant problem exists when trying to use the centralized training method in the distributed
+A significant problem exists when trying to use the centralized training method in the distributed
 environment of IoT and/or other similar big data applications. While there have been many successes
 using the centralized training approach in traditional machine learning environments, it has many
 problems that make it impractical for use in large, distributed systems. A major problem is the single
@@ -153,7 +153,7 @@ continues to grow, the centralized architecture continues to lose viability as a
 Overall, these issues highlight the need for new ways of training models—ways such as decentralized
 federated learning—that will allow for computation to be distributed away from the central server,
 provide for reduction of the server load, and remove the single point of failure inherent in the centralized
-architecture.*
+architecture.
 
 
 <p align="center">
