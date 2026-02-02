@@ -20,7 +20,7 @@ central aggregator server.*
 - 7. [Experiments and Result Analysis](README.md#vii-experiments--results)
 - 8. [Challenges and Discussions](README.md#viii-challenges-and-discussion)
 - 9. [Conclusion & Future Work](README.md#ix-conclusion--future-work)
-[References](README.md#references)
+- [References](README.md#references)
 
 ## LIST OF FIGURES
 - Figure 1. Steps for Peer-to-peer FL Training
