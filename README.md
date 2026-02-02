@@ -23,7 +23,7 @@ central aggregator server.*
 -    [References](README.md#references)
 
 ## LIST OF FIGURES
-- [Figure 1. Steps for Peer-to-peer FL Training](figure1)
+- [Figure 1. Steps for Peer-to-peer FL Training](#figure1)
 - [Figure 2. Centralized Federated Learning Architecture]
 - [Figure 3. High-Level Decentralized Federated Learning Design]
   [Figure 4. DFL Diagram]
