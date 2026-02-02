@@ -440,7 +440,7 @@ all nodes shut down their servers, and the script terminated with the message "A
 <p align="center">
 <img width="1000" height="638" alt="10" src="https://github.com/user-attachments/assets/372f0228-a5b1-4749-bea6-0df97c5f207d" />
   <em><br>
-    <strong>Figure 11.3</strong> Displays the last exchanges of model updates, final loss values, shutdown of gRPC servers, and confirmation that all
+    <strong>Figure 11.4</strong> Displays the last exchanges of model updates, final loss values, shutdown of gRPC servers, and confirmation that all
 peers finished.
   </em>
 </p>
