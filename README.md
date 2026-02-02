@@ -11,7 +11,7 @@ accuracy from 14% to 33% during three rounds of training while decreasing relian
 central aggregator server.*
 
 ## TABLE OF CONTENT
-- 1. [Introduction](#Introduction)
+- 1. [Introduction](##Introduction)
 - 2. Literature Review
 - 3. Problem Statement & Objectives
 - 4. Functional and Non-Functional Requirements
