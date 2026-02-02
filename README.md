@@ -24,16 +24,16 @@ central aggregator server.*
 
 ## LIST OF FIGURES
 - [Figure 1. Steps for Peer-to-peer FL Training](#figure1)
-- [Figure 2. Centralized Federated Learning Architecture]
-- [Figure 3. High-Level Decentralized Federated Learning Design]
-  [Figure 4. DFL Diagram]
-- [Figure 5. FL Components in the System Diagram]
-- [Figure 6. Data Flow Diagram for Decentralized Learning]
-- [Figure 7. Flower Federated Learning Architecture]
-- [Figure 8. Centralized Model Results]
-- [Figure 9. Decentralized P2P Results]
-- [Figure 10. Decentralized Workflow]
-- [Figure 11. Training Logs of Decentralized FL System]
+- [Figure 2. Centralized Federated Learning Architecture](#figure2)
+- [Figure 3. High-Level Decentralized Federated Learning Design](#figure3)
+  [Figure 4. DFL Diagram](#figure4)
+- [Figure 5. FL Components in the System Diagram](#figure5)
+- [Figure 6. Data Flow Diagram for Decentralized Learning](#figure6)
+- [Figure 7. Flower Federated Learning Architecture](#figure7)
+- [Figure 8. Centralized Model Results](#figure8)
+- [Figure 9. Decentralized P2P Results](#figure9)
+- [Figure 10. Decentralized Workflow](#figure10)
+- [Figure 11. Training Logs of Decentralized FL System](#figure11)
 
 ## i.Introduction
 Federated Learning is a method of collaborative machine learning where multiple clients can collectively
