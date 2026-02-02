@@ -19,7 +19,7 @@ central aggregator server.*
 - [vi. Methodology and Implementation Details](README.md#vi-methodology--implementation)
 - [vii. Experiments and Result Analysis](README.md#vii-experiments--results)
 - [viii. Challenges and Discussions](README.md#viii-challenges-and-discussion)
-- [ix. [Conclusion & Future Work](README.md#ix-conclusion--future-work)
+- [ix. Conclusion & Future Work](README.md#ix-conclusion--future-work)
 -    [References](README.md#references)
 
 ## LIST OF FIGURES
