@@ -75,9 +75,12 @@ becoming increasingly important in creating privacy-preserving, scalable, and in
 on distributed data continues to evolve rapidly and is becoming a key technology for building
 privacy-preserving, scalable, and intelligent systems that rely on distributed data.
 
-<img width="2048" height="1096" alt="1" src="https://github.com/user-attachments/assets/537d6aa1-373f-43ee-b888-3bd322d874fe" />
-Figure 1.The illustration is a mesh of clients each having their own data and each client sends model updates to other peer
-clients that have a similar amount of data so they can learn together without a centralized server.
+<p align="center">
+<img width="2048" height="1096" alt="1" src="https://github.com/user-attachments/assets/537d6aa1-373f-43ee-b888-3bd322d874fe" />  
+  <em> <strong>Figure 1.</strong> The illustration is a mesh of clients each having their own data and each client sends model updates to other peer
+clients that have a similar amount of data so they can learn together without a centralized server.</em>
+</p>
+
 
 ## ii. Literature Review
 The development of Federated Learning (FL) has been influenced by numerous developments in
@@ -152,10 +155,13 @@ federated learning—that will allow for computation to be distributed away from
 provide for reduction of the server load, and remove the single point of failure inherent in the centralized
 architecture.*
 
+
+<p align="center">
 <img width="742" height="430" alt="2" src="https://github.com/user-attachments/assets/42c2e397-7f2d-4809-96c6-6a421d989e86" />
-Figure2. Illustrates how in the classic federated learning topology there is one main or central server and many clients. Each
+  <em><br><strong>Figure2.</strong> Illustrates how in the classic federated learning topology there is one main or central server and many clients. Each
 client trains on their own data and sends it back to the central server to be aggregated. The central server then uses these
-updated models to train its own model which is then sent out to all the clients again
+updated models to train its own model which is then sent out to all the clients again</em>
+</p>
 
 ## iii Objectives
 This project aims to develop a scalable P2P communication network that eliminates the
@@ -187,9 +193,13 @@ As opposed to the star topology found in most centralized FL architectures, we p
 mesh-like P2P topology. Each client functions as both a sender and a receiver of model parameters and
 communicates directly with other peers.
 
+<p align="center">
 <img width="446" height="479" alt="3" src="https://github.com/user-attachments/assets/28a9154a-ea52-47e8-8026-60a2a085e82b" />
-Figure 3. This is an overview of how decentralized federated learning works. It shows participants in a mesh of peer to peer
+  <em>
+    <br><strong>Figure 3.</strong> This is an overview of how decentralized federated learning works. It shows participants in a mesh of peer to peer
 connections, exchanging parameters
+  </em>
+</p><br>
 
 The illustration shows a Decentralized Federated Learning system consisting of multiple smartphones
 acting as nodes in a mesh network. Each smartphone maintains and trains its own "local model" (the brain
@@ -199,12 +209,21 @@ them to exchange gradient updates and model weights directly. With the collabora
 the network, the network can work together to build shared intelligence and achieve agreement, all
 without the transmission of raw data.
 
+<p align="center">
 <img width="359" height="407" alt="4" src="https://github.com/user-attachments/assets/df240dc0-a845-4324-a0bd-d34a3ab88bbd" />
-Figure 4. Shows smartphones connected to a decentralized mesh network exchanging parameters from phone to phone.
+  <em><br>
+    <strong>Figure 4.</strong> Shows smartphones connected to a decentralized mesh network exchanging parameters from phone to phone.
+  </em>
+</p>
+<br>
 
+<p align="center">
 <img width="582" height="408" alt="5" src="https://github.com/user-attachments/assets/219d6377-9bf5-48c3-a2fa-b1bc010d42d1" />
-Figure 5. Is a process diagram illustrating the flow of the federated learning algorithm. This includes local training and model
+  <em><br>
+    <strong>Figure 5.</strong> Is a process diagram illustrating the flow of the federated learning algorithm. This includes local training and model
 update, peer selection, model exchange and aggregation.
+  </em>
+</p>
 
 ### v.ii Data Flow
 The training process is conducted in a cycle:
@@ -213,9 +232,12 @@ The training process is conducted in a cycle:
 - Exchange of Models: Updates are exchanged securely via gRPC.
 - Aggregation: Local aggregation (FedAvg) and gossip-based propagation occur at each node.
 
+<p align="center">
 <img width="603" height="488" alt="6" src="https://github.com/user-attachments/assets/4243cc55-66d8-4987-b317-59128d60869c" />
-Figure 6. This diagram illustrates the step by step process of how two clients perform decentralized learning, from the beginning
+  <em><br>
+    <strong>Figure 6.</strong> This diagram illustrates the step by step process of how two clients perform decentralized learning, from the beginning
 of the process until the end when the clients confirm that the learning has converged.
+  </em>
 
 ## vi. Methodology & Implementation
 ### vi.i Methodology Used
@@ -243,10 +265,14 @@ allowing Direct Client-To-Client Interaction, the System will reduce Server Load
 Support Scalable Decentralized Learning Workflow, while Maintaining Compatibility with Flower’s Main
 Orchestration Loop.
 
+<p align="center">
 <img width="741" height="474" alt="7" src="https://github.com/user-attachments/assets/3d4fc36a-123a-4b92-85c6-4a839fc742a7" />
-Figure 7. Flower core framework architecture with both Edge Client Engine and Virtual Client Engine. Edge clients live on real
+  <em><br>
+    <strong>Figure 7.</strong> Flower core framework architecture with both Edge Client Engine and Virtual Client Engine. Edge clients live on real
 edge devices and communicate with the server over RPC. Virtual clients on the other hand consume close to zero resources when
 inactive and only load model and data into memory when the client is being selected for training or evaluation.
+  </em>
+</p>
 
 ## vi.iv gRPC Protocol
 gRPC (gRPC Remote Procedure Calls), is an Open Source High Performance Framework Developed by
@@ -292,10 +318,13 @@ Accuracy: Accuracy of the model increased gradually from 14% in Round 1 to 33% b
 Loss: Decrease in Training Loss was demonstrated by a decrease in Training Loss from 359.96 to
 296.17, which indicates that the model learned effectively.
 
+<p align="center">
 <img width="747" height="294" alt="8" src="https://github.com/user-attachments/assets/407e517f-0354-44aa-b9bb-9ad5d185c6a8" />
-
-Figure 8. These two graphs represent the loss and accuracy of a trained model over time while using centralized federated
+  <em><br>
+    <strong>Figure 8.</strong> These two graphs represent the loss and accuracy of a trained model over time while using centralized federated
 learning.
+  </em>
+</p>
 
 ### vii.iii Confirmation of Decentralized Operation
 Client Logs confirmed that client nodes (Node 1, Node 2, Node 3) received parameter values from one
@@ -326,10 +355,13 @@ of training:
 - Round 2: 0.1154
 - Round 3: 0.0836
 
+<p align="center">
 <img width="895" height="360" alt="9" src="https://github.com/user-attachments/assets/d42389df-33f2-41bc-99f5-21a8d67f37cc" />
-
-Figure 9. These two graphs demonstrate the improvement in loss and accuracy over time while using decentralized federated
+<em><br>
+  <strong>Figure 9.</strong> These two graphs demonstrate the improvement in loss and accuracy over time while using decentralized federated
 learning.
+</em>
+</p>
 
 ### vii.vi Workflow
 This workflow enables multiple computers to cooperatively develop a shared artificial intelligence model
@@ -337,9 +369,13 @@ privately. The computers connect, confirm the existence of connections, perform 
 knowledge (parameters), combine this knowledge, and continue to do so until the model has sufficient
 accuracy.
 
+<p align="center">
 <img width="1162" height="638" alt="10" src="https://github.com/user-attachments/assets/99baaec9-c3c3-4ad3-8f55-68bda36e7ec6" />
-Figure 10. This diagram illustrates the steps involved in the decentralized federated learning workflow. The workflow consists of
+  <em><br>
+    <strong>Figure 10.</strong> This diagram illustrates the steps involved in the decentralized federated learning workflow. The workflow consists of
 several steps such as initialization, handshake, synchronization, model exchange, aggregation, and termination.
+  </em>
+</p>
 
 #### Explain the P2P Training Process:
 - 1. Initialization: Peer initiates operation, configures communication server (gRPC), and identifies
@@ -363,21 +399,41 @@ successful, as evident by the significant reduction in the loss metrics of the p
 decreased from 0.1949 in Round 1 to 0.0806 in Round 3). Ultimately, once the third round was complete,
 all nodes shut down their servers, and the script terminated with the message "All peers finished"
 
-![11](https://github.com/user-attachments/assets/16f8aa9c-5ae0-40e0-8a65-2f19b13a3a2b)
-Figure 11. Shows peers retrying failed handshakes, establishing connections, and exchanging the first set of models in Round 1.
+<p align="center">
+<img width="1000" height="638" alt="10" src="https://github.com/user-attachments/assets/e287262e-7073-4c9e-9e94-0cdd2e83264b" />
+  <em><br>
+    <strong>Figure 11.</strong> Shows peers retrying failed handshakes, establishing connections, and exchanging the first set of models in Round 1.
+  </em>
+</p>
 
-![12](https://github.com/user-attachments/assets/0f24490a-b933-4704-94d6-0d3f8b9ae910)
-Figure 11.1 Shows peers launching, starting gRPC servers, identifying neighbors, and exchanging initial GREETING messages.
+<p align="center">
+<img width="1000" height="638" alt="10" src="https://github.com/user-attachments/assets/ad26eb57-838b-4355-8dc9-b28368a09526" />
+  <em><br>
+    <strong>Figure 11.1</strong> Shows peers launching, starting gRPC servers, identifying neighbors, and exchanging initial GREETING messages.
+  </em>
+</p>
 
-![13](https://github.com/user-attachments/assets/0ca03b07-d8dc-4830-9c6d-88425fef0663)
-Figure 11.2 Displays peer logs showing GREETING messages, model exchanges, and aggregation results during Round 3.
+<p align="center">
+<img width="1000" height="638" alt="10" src="https://github.com/user-attachments/assets/d8bd512e-0d07-4157-871f-77f1fb02dc57" />
+  <em><br>
+    <strong>Figure 11.2</strong> Displays peer logs showing GREETING messages, model exchanges, and aggregation results during Round 3.
+  </em>
+</p>
 
-![14](https://github.com/user-attachments/assets/3903a7cb-e50c-4557-ba88-3e0b1c233917)
-Figure 11.3 Shows model exchanges, aggregation losses, and the system shutting down after completing the final training round.
+<p align="center">
+<img width="1000" height="638" alt="10" src="https://github.com/user-attachments/assets/a8e304c6-3f34-4931-90cd-250c689e194d" />
+  <em><br>
+    <strong>Figure 11.3</strong> Shows model exchanges, aggregation losses, and the system shutting down after completing the final training round.
+  </em>
+</p>
 
-![15](https://github.com/user-attachments/assets/69f7f1fd-18dc-4346-9bb7-8ca3604a59c9)
-Figure 11.4 Displays the last exchanges of model updates, final loss values, shutdown of gRPC servers, and confirmation that all
+<p align="center">
+<img width="1000" height="638" alt="10" src="https://github.com/user-attachments/assets/372f0228-a5b1-4749-bea6-0df97c5f207d" />
+  <em><br>
+    <strong>Figure 11.3</strong> Displays the last exchanges of model updates, final loss values, shutdown of gRPC servers, and confirmation that all
 peers finished.
+  </em>
+</p>
 
 ## viii. Challenges and Discussion
 The implementation of a totally peer-to-peer (P2P) federated learning architecture in the Flower
