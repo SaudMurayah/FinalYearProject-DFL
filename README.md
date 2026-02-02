@@ -18,9 +18,9 @@ central aggregator server.*
 - 5. [System Architecture and Design](README.md#v-system-architecture-and-design)
 - 6. [Methodology and Implementation Details](README.md#vi-methodology--implementation)
 - 7. [Experiments and Result Analysis](README.md#vii-experiments--results)
-- 8.[Challenges and Discussions](README.md#viii-challenges-and-discussion)
+- 8. [Challenges and Discussions](README.md#viii-challenges-and-discussion)
 - 9. [Conclusion & Future Work](README.md#ix-conclusion--future-work)
-References
+[References](README.md#references)
 
 ## LIST OF FIGURES
 - Figure 1. Steps for Peer-to-peer FL Training
