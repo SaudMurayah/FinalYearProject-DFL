@@ -11,15 +11,15 @@ accuracy from 14% to 33% during three rounds of training while decreasing relian
 central aggregator server.*
 
 ## TABLE OF CONTENT
-- [1. Introduction](README.md#iintroduction)
-- 2. [Literature Review](README.md#ii-literature-review)
-- 3. [Problem Statement & Objectives](README.md#iii-problem-statement)
-- 4. [Functional and Non-Functional Requirements](README.md#iv-functional-and-non-functional-requirements)
-- 5. [System Architecture and Design](README.md#v-system-architecture-and-design)
-- 6. [Methodology and Implementation Details](README.md#vi-methodology--implementation)
-- 7. [Experiments and Result Analysis](README.md#vii-experiments--results)
-- 8. [Challenges and Discussions](README.md#viii-challenges-and-discussion)
-- 9. [Conclusion & Future Work](README.md#ix-conclusion--future-work)
+- [i. Introduction](README.md#iintroduction)
+- [ii. Literature Review](README.md#ii-literature-review)
+- [iii. Problem Statement & Objectives](README.md#iii-problem-statement)
+- [iv. Functional and Non-Functional Requirements](README.md#iv-functional-and-non-functional-requirements)
+- [v. System Architecture and Design](README.md#v-system-architecture-and-design)
+- [vi. Methodology and Implementation Details](README.md#vi-methodology--implementation)
+- [vii. Experiments and Result Analysis](README.md#vii-experiments--results)
+- [viii. Challenges and Discussions](README.md#viii-challenges-and-discussion)
+- [ix. [Conclusion & Future Work](README.md#ix-conclusion--future-work)
 -    [References](README.md#references)
 
 ## LIST OF FIGURES
